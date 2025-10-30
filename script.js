@@ -7,8 +7,8 @@ let commands = {
   help: "Available commands: help, about, date, clear, motd, info",
   about: "Ubuntu-style web terminal — simulated environment",
   date: new Date().toString(),
-  motd: "Welcome to the Ubuntu Web Terminal!",
-  info: "Ubuntu Web CLI\nVersion 1.0\nAuthor: Jonathan"
+  motd: "An Ubuntu-like terminal experience but on the web.",
+  info: "Carbon Linux Terminal Command Line Interface (CLTCLI)\nVersion 2.4\nAuthor: jumper"
 };
 
 // Command history
