@@ -4,11 +4,13 @@ const terminal = document.getElementById("terminal");
 
 // Command storage
 let commands = {
-  help: "Available commands: help, about, date, clear, motd, info",
+  help: "Available commands: help, about, date, clear, motd, info, login, logout",
   about: "Ubuntu-style web terminal — simulated environment",
   date: new Date().toString(),
   motd: "An Ubuntu-like terminal experience but on the web.",
-  info: "Carbon Linux Terminal Command Line Interface (CLTCLI)\nVersion 2.4\nAuthor: jumper"
+  info: "Carbon Linux Terminal Command Line Interface (CLTCLI)\nVersion 2.4\nAuthor: jumper",
+  login: "What is there to log into?",
+  logout: "you never logged in!"
 };
 
 // Command history
